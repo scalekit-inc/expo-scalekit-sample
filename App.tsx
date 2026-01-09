@@ -1,11 +1,8 @@
 /**
  * Expo Auth Sample App - Using @scalekit-sdk/expo
  *
- * This is the SIMPLIFIED version using the Scalekit SDK.
- * Compare this with the original manual implementation!
- *
- * Before SDK: ~500 lines across 8 files
- * After SDK:  ~120 lines in 1 file (76% reduction!)
+ * A simple demonstration of Scalekit authentication in Expo.
+ * Complete authentication in just one file!
  */
 
 import React from 'react';

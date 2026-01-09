@@ -1,6 +1,6 @@
 {
   "name": "expo-scalekit-sample",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Sample Expo app using @scalekit-sdk/expo for authentication",
   "main": "index.ts",
   "scripts": {

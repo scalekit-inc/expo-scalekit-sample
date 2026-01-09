@@ -186,10 +186,18 @@ npm run android
 
 ### "Cannot find module '@scalekit-sdk/expo'"
 
-The SDK is currently linked locally. After it's published to npm:
+Make sure you've installed all dependencies:
 
 ```bash
-npm install @scalekit-sdk/expo@latest
+npm install
+```
+
+If the issue persists, try clearing the cache:
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+npx expo start --clear
 ```
 
 ### Deep Linking Not Working

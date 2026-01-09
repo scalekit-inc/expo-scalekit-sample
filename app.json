@@ -2,12 +2,15 @@
   "expo": {
     "name": "expo-auth-sample",
     "slug": "expo-auth-sample",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "scheme": "expo-auth-sample",
+    "plugins": [
+      "@scalekit-sdk/expo"
+    ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
